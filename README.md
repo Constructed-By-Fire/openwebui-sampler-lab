@@ -109,3 +109,7 @@ Parameter Testing makes sampling behavior easy to compare visually. Run single-p
 ![Behavior Testing example report](docs/images/behavior-testing.png)
 
 Behavior Testing runs multiple independent prompts across multiple seeds, making it easy to compare how consistently a model or personality responds across different situations.
+
+## Support
+
+If OpenWebUI Sampler Lab is useful to you, you can support development on [Ko-fi](https://ko-fi.com/constructedbyfire).
