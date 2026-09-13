@@ -4,6 +4,20 @@ A small Python terminal utility for exploring LLM sampling and personality behav
 
 Open WebUI and its backend perform inference. Sampler Lab organizes requests and writes CSV and standalone HTML reports. There is no automated scoring or judging.
 
+## Screenshots
+
+### Parameter Testing
+
+![Parameter Testing example report](docs/images/parameter-grid.png)
+
+Parameter Testing makes sampling behavior easy to compare visually. Run single-parameter sweeps across multiple seeds, map interactions between two parameters in a grid, or use quick/custom sweeps to investigate interesting regions more closely.
+
+### Behavior Testing
+
+![Behavior Testing example report](docs/images/behavior-testing.png)
+
+Behavior Testing runs multiple independent prompts across multiple seeds, making it easy to compare how consistently a model or personality responds across different situations.
+
 ## Two modes
 
 **Parameter Testing** holds one prompt or situation constant while varying sampling settings:
@@ -95,20 +109,6 @@ Reports record prompts, model IDs, seeds, responses, errors, experimental overri
 **Never commit your API key.** `.env` and `results/` are intentionally ignored by Git, along with caches and common editor artifacts. `.env.example` contains placeholders only. Authentication headers are not printed, and authenticated redirects are refused.
 
 Reports can contain your private prompts and model output. Review anything you choose to share, including screenshots. Changing a previously tracked file to ignored does not remove it from Git history.
-
-## Screenshots
-
-### Parameter Testing
-
-![Parameter Testing example report](docs/images/parameter-grid.png)
-
-Parameter Testing makes sampling behavior easy to compare visually. Run single-parameter sweeps across multiple seeds, map interactions between two parameters in a grid, or use quick/custom sweeps to investigate interesting regions more closely.
-
-### Behavior Testing
-
-![Behavior Testing example report](docs/images/behavior-testing.png)
-
-Behavior Testing runs multiple independent prompts across multiple seeds, making it easy to compare how consistently a model or personality responds across different situations.
 
 ## Support
 
