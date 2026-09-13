@@ -1,0 +1,32 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.env
+*.env.*
+!.env.example
+
+# Local environments, reports, and Python artifacts
+.venv/
+venv/
+results/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Temporary, editor, and OS files
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.swp
+*.swo
+*~
+.#*
+\#*\#
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
